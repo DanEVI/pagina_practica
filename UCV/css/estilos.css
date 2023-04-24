@@ -1,0 +1,24 @@
+section.logo {
+  align-items: center;
+}
+
+div.galeria{
+  margin: 10px 20px;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+  width: 280px;
+}
+div.galeria img{
+  width: 280px;
+  height: 280px;
+}
+div.galeria:hover{
+  border: 1px solid #0000ff;
+  transform: rotate(-3deg);
+}
+div.pie{
+  text-align: center;
+  text-shadow: 2px 2px 5px #0000ff;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+}
